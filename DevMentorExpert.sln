@@ -3,12 +3,53 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMentorExpert.API", "DevMentorExpert.API\DevMentorExpert.API.csproj", "{F4F2FFB1-ADA9-4878-B5E2-D8B3117F7284}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMentorExpert.Application", "DevMentorExpert.Application\DevMentorExpert.Application.csproj", "{86DC8577-AF89-4873-9ADE-1112456AEABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMentorExpert.Core", "DevMentorExpert.Core\DevMentorExpert.Core.csproj", "{292FC222-C193-4EAB-925A-89A2B4724FD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMentorExpert.Common", "DevMentorExpert.Common\DevMentorExpert.Common.csproj", "{8DC9C66D-F155-46D7-9D8E-D87FD89CB7AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMentorExpert.Test", "DevMentorExpert.Test\DevMentorExpert.Test.csproj", "{37DFFFA0-8399-437E-A65D-72E3449B68DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevMentorExpert.Infrastructure", "DevMentorExpert.Infrastructure\DevMentorExpert.Infrastructure.csproj", "{DDE1AD72-F2C1-4DD3-A323-1EC214D61F30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4F2FFB1-ADA9-4878-B5E2-D8B3117F7284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F2FFB1-ADA9-4878-B5E2-D8B3117F7284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F2FFB1-ADA9-4878-B5E2-D8B3117F7284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F2FFB1-ADA9-4878-B5E2-D8B3117F7284}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86DC8577-AF89-4873-9ADE-1112456AEABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86DC8577-AF89-4873-9ADE-1112456AEABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86DC8577-AF89-4873-9ADE-1112456AEABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86DC8577-AF89-4873-9ADE-1112456AEABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{292FC222-C193-4EAB-925A-89A2B4724FD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{292FC222-C193-4EAB-925A-89A2B4724FD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{292FC222-C193-4EAB-925A-89A2B4724FD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{292FC222-C193-4EAB-925A-89A2B4724FD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DC9C66D-F155-46D7-9D8E-D87FD89CB7AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC9C66D-F155-46D7-9D8E-D87FD89CB7AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DC9C66D-F155-46D7-9D8E-D87FD89CB7AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DC9C66D-F155-46D7-9D8E-D87FD89CB7AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37DFFFA0-8399-437E-A65D-72E3449B68DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37DFFFA0-8399-437E-A65D-72E3449B68DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37DFFFA0-8399-437E-A65D-72E3449B68DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37DFFFA0-8399-437E-A65D-72E3449B68DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE1AD72-F2C1-4DD3-A323-1EC214D61F30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE1AD72-F2C1-4DD3-A323-1EC214D61F30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE1AD72-F2C1-4DD3-A323-1EC214D61F30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE1AD72-F2C1-4DD3-A323-1EC214D61F30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B6C8AE4-0FB2-4B41-99AC-FE4A27047C90}
 	EndGlobalSection
 EndGlobal

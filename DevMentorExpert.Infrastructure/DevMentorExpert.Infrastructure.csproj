@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Repo\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DevMentorExpert.Common\DevMentorExpert.Common.csproj" />
+    <ProjectReference Include="..\DevMentorExpert.Core\DevMentorExpert.Core.csproj" />
+  </ItemGroup>
+
+</Project>
